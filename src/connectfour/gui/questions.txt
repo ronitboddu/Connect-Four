@@ -1,0 +1,15 @@
+CSCI-605 Homework 7: Connect Four
+
+Answer each of the following questions regarding the design of this application.
+
+1. In terms of MVC, which part does ConnectFourBoard represent?
+-Model
+
+2. In terms of MVC, which *parts* do ConnectFourGUI and ConnectFourPTUI represent?
+-View and Controller.
+
+3. What interface/method must ConnectFourGUI implement?
+-Observer
+
+4. What method in ConnectFourBoard is used to call into ConnectFourGUI when the board changes?
+- notifyObservers()
